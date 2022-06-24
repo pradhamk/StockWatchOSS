@@ -1,0 +1,35 @@
+{
+  "name": "StockWatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/client/client.js",
+  "scripts": {
+    "start": "node src/client/client.js",
+    "dev": "eslint --fix src/* && node src/client/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradhamk/StockWatchOSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradhamk/StockWatchOSS/issues"
+  },
+  "homepage": "https://github.com/pradhamk/StockWatchOSS#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.8.0",
+    "mongodb": "^4.7.0",
+    "npmlog": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
