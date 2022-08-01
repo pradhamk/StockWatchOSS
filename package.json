@@ -21,7 +21,7 @@
   "homepage": "https://github.com/pradhamk/StockWatchOSS#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "discord.js": "^14.0.3",
+    "discord.js": "^14.1.2",
     "mongodb": "^4.8.0",
     "npmlog": "^6.0.2"
   },
